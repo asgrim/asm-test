@@ -12,7 +12,7 @@ section .text
 cat:
 	mov ebx,eax			; ebx = fd from open (eax)
 	mov eax,3			; read
-	mov	ecx,buf			; address of buf (i.e. this is "output")
+	mov ecx,buf			; address of buf (i.e. this is "output")
 	mov edx,bufsize		; address of bufsize
 	int 80h
 
