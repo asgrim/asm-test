@@ -1,0 +1,4 @@
+```bash
+$ make clean
+$ make
+```
